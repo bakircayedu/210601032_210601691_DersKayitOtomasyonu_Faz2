@@ -497,6 +497,7 @@ getch();
 	durum = 1;
 	
 	system("cls"); 
-	
+
+	}	
 }
 
