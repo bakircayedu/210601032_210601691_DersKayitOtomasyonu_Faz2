@@ -463,6 +463,7 @@ char ogr_ad[20];
     fprintf(KayitDosya,"\n"); 
     fprintf(KayitDosya,"%s %s %d",ogr.ad,ogr.soyad,ogr.no);
     
+    
 	int DersKodu,durum = 0; 
     
 	ders_listeleme();
@@ -490,6 +491,8 @@ for(sayac=0;sayac<i2-1;){
  
     durum=1;
   }
+  
+}
   fclose(OgrDosya);
   fclose(KayitDosya);
 printf("\n\nKayit Yapildi devam etmek icin bir tusa basiniz...\n");
@@ -497,7 +500,6 @@ getch();
 	durum = 1;
 	
 	system("cls"); 
-
-	}	
+	
 }
 
